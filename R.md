@@ -100,3 +100,8 @@ To print our working directory in the Console, type <code>getwd()</code>
 - All vector elements must be of the same type
 - If a vectors has only logical and numeric elements, all logicals will be converted to numbers
 - if vector has a mix of characters, logical, and numbers => everything is converted to characters
+
+### Functions in R
+- <code>function.name(x)</code> - runs the function called function.name on the data x
+- generally like to save the results to our function into a new variable
+- <code>args(round)</code> will tell you what arguments the function takes
